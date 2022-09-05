@@ -74,4 +74,5 @@ button:focus{
     justify-content: center;
     color: #1f1f1f;
     font-size: 2em;
+    text-decoration: none;
 }

@@ -37,8 +37,9 @@ class Display {
 
     agregarNumero(numero) {
         if(numero === '.' && this.valorActual.includes('.')) return
-        this.valorActual = this.valorActual.toString() + numero.toString();
-        this.imprimirValores();
+            this.valorActual = this.valorActual.toString() + numero.toString();
+            console.log(numero.length)
+            this.imprimirValores();
     }
 
     imprimirValores() {
