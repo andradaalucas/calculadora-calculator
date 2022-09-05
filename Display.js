@@ -37,7 +37,7 @@ class Display {
 
     agregarNumero(numero) {
         if(numero === '.' && this.valorActual.includes('.')) return
-        if(this.valorActual + numero > 999999999) throw Error
+        if(this.valorActual + numero > 9999999) throw Error
         this.valorActual = this.valorActual.toString() + numero.toString();
         this.imprimirValores();
     }
